@@ -1,7 +1,15 @@
 {
-  "name": "vue-simple-progress",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-simple-progressbar",
+  "version": "0.0.2",
+  "license": "GPL",
+  "author": "arfurs",
+  "keywords": [
+    "vue plugin",
+    "vue",
+    "progressbar"
+  ],
+  "private": false,
+  "main": "./dist/vue-simple-progressbar.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",

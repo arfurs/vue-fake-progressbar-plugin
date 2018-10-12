@@ -1,8 +1,22 @@
-import Vue from 'vue'
-import App from './App.vue'
+import progressBarComponent from './ProgressBar'
 
-Vue.config.productionTip = false
+export default {
+  
+  progressBarInstance: null,
 
-new Vue({
-  render: h => h(App)
-}).$mount('#app')
+  install(Vue, options) {
+
+    const progressBarConstructor = Vue.extend(progressBarComponent)
+    this.progressBarInstance = new progressBarConstructor().$mount()
+    document.body.appendChild(this.progressBarInstance.$el)
+
+    const methods = Vue.$progress = Vue.prototype.$progress = {}
+
+    const emit = eventName => this.progressBarInstance.$emit(eventName)
+    methods.start = () => emit('start')
+    methods.finish = () => emit('finish')
+    methods.error = () => emit('errorFinish')
+    methods.warning = () => emit('warningFinish')
+    methods.success = () => emit('successFinish')
+  }
+}
