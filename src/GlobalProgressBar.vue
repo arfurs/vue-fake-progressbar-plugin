@@ -7,25 +7,26 @@
 </template>
 
 <script>
-  import _ from './common'
-  const color = {
-    primary: '#66D9EF',
-    error: '#F92672',
-    warn: '#F6B930',
-    success: '#29B479'
-  }
+  import * as _ from './common'
+  import config from './GlobalProgressBar.config'
+
   export default {
+
     name: 'progress-bar',
+
     data() {
       return {
+        mode: config.mode,
+        theme: config.theme,
         currProgress: 0,
-        color: color.primary,
+        color: config.theme.primary,
         transitionAttr: {
           transitionDuration: '800ms, 1500ms, 200ms, 200ms',
           transitionTimingFunction: 'ease, ease, ease, ease'
         }
       }
     },
+
     computed: {
       progressBarStyle() {
         return {
@@ -37,19 +38,23 @@
         }
       }
     },
+
     methods: {
+      
       registerEventListener() {
-        this.$progressListeners = {
+        this.$componentListeners = {
+          // 进度条控制类
           'start': this.onStart,
           'finish': this.onFinish,
           'successFinish': this.onSuccessFinish,
           'warningFinish': this.onWarningFinish,
           'errorFinish': this.onErrorFinish
         }
-        Object.keys(this.$progressListeners).forEach((val) => {
-          this.$on(val, this.$progressListeners[val])
+        Object.keys(this.$componentListeners).forEach(i => {
+          this.$on(i, this.$componentListeners[i])
         })
       },
+
       onStart() {
         let initProgress = _.randomFrom(0, 80)
         this.currProgress = initProgress
@@ -61,7 +66,8 @@
           this.currProgress += (100 - this.currProgress) / _.randomFrom(20, 100)
         }, 600)
       },
-      onFinish(color = color.primary) {
+
+      onFinish(color = this.theme.primary) {
         clearInterval(this.$timerId)
         this.transitionAttr = {
           ...this.transitionAttr,
@@ -71,19 +77,21 @@
         this.currProgress = 100
       },
       onSuccessFinish() {
-        this.onFinish(color.success)
+        this.onFinish(this.theme.success)
       },
       onErrorFinish() {
-        this.onFinish(color.error)
+        this.onFinish(this.theme.error)
       },
       onWarningFinish() {
-        this.onFinish(color.warn)
+        this.onFinish(this.theme.warn)
       },
+
       deleteEventListener() {
-        Object.keys(this.$progressListeners).forEach((val) => {
-          this.$off(val, this.$progressListeners[val])
+        Object.keys(this.$componentListeners).forEach(i => {
+          this.$off(i, this.$componentListeners[i])
         })
       },
+
     },
     created() {
       this.registerEventListener()

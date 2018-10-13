@@ -2,7 +2,11 @@ import Vue from "vue"
 import App from "./App"
 import ProgressBar from './main'
 
-Vue.use(ProgressBar)
+Vue.use(ProgressBar, {
+  theme: {
+    error: 'blue',
+  }
+})
 
 new Vue({
   el: '#app',
@@ -14,4 +18,4 @@ setTimeout(() => {
   setTimeout(() => {
     Vue.$progress.error()
   }, 10000)
-}, 3000)
+}, 2000)

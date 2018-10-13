@@ -1,7 +1,7 @@
 {
   "name": "vue-simple-progressbar",
-  "version": "0.0.2",
-  "license": "GPL",
+  "version": "0.0.3",
+  "license": "MIT",
   "author": "arfurs",
   "keywords": [
     "vue plugin",
