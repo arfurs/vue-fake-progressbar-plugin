@@ -5,5 +5,7 @@ export default {
     error: '#F92672',
     warn: '#F6B930',
     success: '#29B479'
-  }
+  },
+  speed: 'normal',
+  duration: 'ease'
 }

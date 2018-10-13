@@ -12,7 +12,7 @@
 
   export default {
 
-    name: 'progress-bar',
+    name: 'progress-bar0',
 
     data() {
       return {
@@ -56,7 +56,7 @@
       },
 
       onStart() {
-        let initProgress = _.randomFrom(0, 80)
+        let initProgress = _.randomFrom(40, 80)
         this.currProgress = initProgress
         this.$timerId = setInterval(() => {
           this.transitionAttr = {
@@ -112,6 +112,9 @@
     height: 3px;
   }
   .simple-progress__bar {
+    position: absolute;
+    left: 0px;
+    top: 0px;
     width: 0%;
     height: 3px;
     background-color: #6298FA;

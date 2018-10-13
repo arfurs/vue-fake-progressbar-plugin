@@ -1,19 +1,20 @@
 import * as _ from './common'
 
-import globalProgressBar from './GlobalProgressBar'
 import config from './GlobalProgressBar.config'
 
 export default {
   
   progressBarInstance: null,
 
-  install(Vue, opts) {
+  async install(Vue, opts) {
 
     try {
       _.deepMerge(config, opts)
     } catch (e) {
-      throw new Error('Vue-simple-progressbar configuration error, please refer to the complete configuration description.')
+      throw new Error('vue-simple-progressbar: configuration error, please refer to the complete configuration description.')
     }
+
+    const globalProgressBar = (await this.importProgressBarThroughMode(config.mode)).default
 
     const globalProgressBarConstructor = Vue.extend(globalProgressBar)
 
@@ -30,5 +31,14 @@ export default {
       success: () => emit('successFinish')
     }
 
+  },
+
+  importProgressBarThroughMode(mode) {
+    try {
+      return import(`./GlobalProgressBar${mode}`)
+    } catch (e) {
+      throw new Error('vue-simple-progressbar: does not support this mode.')
+    }
   }
+
 }
