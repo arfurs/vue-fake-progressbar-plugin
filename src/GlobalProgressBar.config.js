@@ -1,5 +1,6 @@
 export default {
   mode: 0,
+  height: 2,
   theme: {
     primary: '#66D9EF',
     error: '#F92672',

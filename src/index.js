@@ -3,12 +3,7 @@ import App from "./App"
 import ProgressBar from './main'
 
 Vue.use(ProgressBar, {
-  mode: 1,
-  theme: {
-    error: 'blue',
-  },
-  speed: 'fast',
-  duration: 'linear'
+  mode: 0,
 })
 
 new Vue({

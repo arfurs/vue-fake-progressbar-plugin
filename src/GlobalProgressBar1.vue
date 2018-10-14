@@ -1,5 +1,5 @@
 <template>
-  <div class="simple-progress">
+  <div :style="{ 'height': this.height + 'px' }" class="simple-progress">
     <div :style="style" class="simple-progress__bar"></div>
   </div>
 </template>
@@ -13,7 +13,7 @@ export default {
   data() {
     return {
       isStart: false,
-      isFinish: false,
+      height: config.height,
       color: config.theme.primary,
       theme: config.theme,
       duration: config.duration,
@@ -75,14 +75,13 @@ export default {
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 2px;
   }
   .simple-progress__bar {
     position: absolute;
     left: 0%;
     top: 0px;
     width: 100%;
-    height: 2px;
+    height: 100%;
     opacity: 0;
     transition: opacity 1000ms;
     transform: translate3d(-100%,0, 0);

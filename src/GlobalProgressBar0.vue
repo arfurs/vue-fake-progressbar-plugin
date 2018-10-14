@@ -1,8 +1,9 @@
 <template>
-  <div class="simple-progress">
+  <div :style="{ 'height': this.height + 'px' }" class="simple-progress">
     <div
     :style="progressBarStyle"
-    class="simple-progress__bar"></div>
+    class="simple-progress__bar">
+    </div>
   </div>
 </template>
 
@@ -18,6 +19,8 @@
       return {
         mode: config.mode,
         theme: config.theme,
+        decoration: config.decoration,
+        height: config.height,
         currProgress: 0,
         color: config.theme.primary,
         transitionAttr: {
@@ -56,14 +59,15 @@
       },
 
       onStart() {
-        let initProgress = _.randomFrom(40, 80)
+        let initProgress = _.randomFrom(20, 80)
         this.currProgress = initProgress
+        this.transitionAttr = {
+          ...this.transitionAttr,
+          transitionDuration: '400ms, 0ms, 200ms, 200ms'
+        }
         this.$timerId = setInterval(() => {
-          this.transitionAttr = {
-            ...this.transitionAttr,
-            transitionDuration: '400ms, 1500ms, 200ms, 200ms'
-          }
-          this.currProgress += (100 - this.currProgress) / _.randomFrom(20, 100)
+          if (this.currProgress >= 98) clearInterval(this.$timerId)
+          this.currProgress += (100 - this.currProgress) / _.randomFrom(1, 50)
         }, 600)
       },
 
@@ -109,16 +113,16 @@
     left: 0px;
     top: 0px;
     width: 100%;
-    height: 3px;
   }
   .simple-progress__bar {
     position: absolute;
     left: 0px;
     top: 0px;
     width: 0%;
-    height: 3px;
+    height: 100%;
     background-color: #6298FA;
     box-shadow: 0px 0px 10px #6298FA;
+    border-radius: 10px;
     transition: width linear, opacity, background-color, box-shadow;
   }
 </style>
