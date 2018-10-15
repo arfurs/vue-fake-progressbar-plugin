@@ -67,7 +67,7 @@
         }
         this.$timerId = setInterval(() => {
           if (this.currProgress >= 98) clearInterval(this.$timerId)
-          this.currProgress += (100 - this.currProgress) / _.randomFrom(1, 50)
+          this.currProgress += (100 - this.currProgress) / _.randomFrom(10, 50)
         }, 600)
       },
 
