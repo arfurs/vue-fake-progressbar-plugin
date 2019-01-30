@@ -1,5 +1,5 @@
-### This package will soon be improved and is not recommended for the time being.
-### 这个包很快会得到完善，暂时不建议使用
+## 这是一个编写Vue进度条插件的repo，作为练习...
+## 不可用在实际生产环境中使用
 
 ### 使用 & Usage
 
