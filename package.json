@@ -12,7 +12,7 @@
   "main": "./dist/vurSimpleProgressBar.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build --target lib --name vurSimpleProgressBar src/main.js",
+    "build": "vue-cli-service build --target lib --name vueSimpleProgressBar ./src/index.js",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
