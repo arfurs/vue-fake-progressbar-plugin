@@ -1,6 +1,6 @@
 {
   "name": "vue-simple-progressbar",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "license": "MIT",
   "author": "arfurs",
   "keywords": [
@@ -9,7 +9,7 @@
     "progressbar"
   ],
   "private": false,
-  "main": "./dist/vurSimpleProgressBar.common.js",
+  "main": "./dist/vueSimpleProgressBar.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vueSimpleProgressBar ./src/index.js",
