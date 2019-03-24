@@ -2903,12 +2903,8 @@ var GlobalProgressBar_config = __webpack_require__("cd28");
                   return emit('successFinish');
                 }
               };
-              Vue.$progress.start();
-              setTimeout(function () {
-                Vue.$progress.finish();
-              }, 2000);
 
-            case 17:
+            case 15:
             case "end":
               return _context.stop();
           }
