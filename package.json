@@ -9,7 +9,7 @@
     "progressbar"
   ],
   "private": false,
-  "main": "dist/vurSimpleProgressBar.common.js",
+  "main": "./dist/vurSimpleProgressBar.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build --target lib --name vurSimpleProgressBar --entry src/main.js",
