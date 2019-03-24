@@ -1,6 +1,6 @@
 <template>
-  <div :style="{ 'height': this.height + 'px' }" class="simple-progress">
-    <div :style="style" class="simple-progress__bar"></div>
+  <div :style="{ 'height': this.height + 'px' }" class="simple-progress-1">
+    <div :style="style" class="simple-progress-1__bar"></div>
   </div>
 </template>
 
@@ -69,33 +69,33 @@ export default {
 </script>
 
 <style>
-  .simple-progress {
-    position: fixed;
-    z-index: 10000;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-  }
-  .simple-progress__bar {
-    position: absolute;
-    left: 0%;
-    top: 0px;
-    width: 100%;
-    height: 100%;
-    opacity: 0;
-    transition: opacity 1000ms;
+.simple-progress-1 {
+  position: fixed;
+  z-index: 10000;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+}
+.simple-progress-1__bar {
+  position: absolute;
+  left: 0%;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1000ms;
+  transform: translate3d(-100%,0, 0);
+}
+@keyframes progressAnimate {
+  0% {
     transform: translate3d(-100%,0, 0);
   }
-  @keyframes progressAnimate {
-    0% {
-      transform: translate3d(-100%,0, 0);
-    }
-    50% {
-      transform: translate3d(0%,0, 0);
-    }
-    100% {
-      transform: translate3d(100%,0, 0);
-    }
+  50% {
+    transform: translate3d(0%,0, 0);
   }
+  100% {
+    transform: translate3d(100%,0, 0);
+  }
+}
 </style>
 

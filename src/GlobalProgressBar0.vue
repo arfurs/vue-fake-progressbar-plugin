@@ -1,8 +1,8 @@
 <template>
-  <div :style="{ 'height': this.height + 'px' }" class="simple-progress">
+  <div :style="{ 'height': this.height + 'px' }" class="simple-progress-0">
     <div
     :style="progressBarStyle"
-    class="simple-progress__bar">
+    class="simple-progress-0__bar">
     </div>
   </div>
 </template>
@@ -106,24 +106,24 @@
   }
 </script>
 
-<style scoped >
-  .simple-progress {
-    position: fixed;
-    z-index: 10000;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    z-index: 99999;
-  }
-  .simple-progress__bar {
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 0%;
-    height: 100%;
-    background-color: #6298FA;
-    box-shadow: 0px 0px 10px #6298FA;
-    border-radius: 10px;
-    transition: width linear, opacity, background-color, box-shadow;
-  }
+<style scoped>
+.simple-progress-0 {
+  position: fixed;
+  z-index: 10000;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 99999;
+}
+.simple-progress-0__bar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 0%;
+  height: 100%;
+  background-color: #6298FA;
+  box-shadow: 0px 0px 10px #6298FA;
+  border-radius: 10px;
+  transition: width linear, opacity, background-color, box-shadow;
+}
 </style>
