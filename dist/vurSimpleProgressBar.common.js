@@ -87,6 +87,17 @@ module.exports =
 /************************************************************************/
 /******/ ({
 
+/***/ "013d":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_4a85bac4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("89a0");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_4a85bac4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_4a85bac4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_App_vue_vue_type_style_index_0_id_4a85bac4_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "01f9":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -613,22 +624,6 @@ module.exports = function (Constructor, NAME, next) {
 
 /***/ }),
 
-/***/ "456d":
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.2.14 Object.keys(O)
-var toObject = __webpack_require__("4bf8");
-var $keys = __webpack_require__("0d58");
-
-__webpack_require__("5eda")('keys', function () {
-  return function keys(it) {
-    return $keys(toObject(it));
-  };
-});
-
-
-/***/ }),
-
 /***/ "4588":
 /***/ (function(module, exports) {
 
@@ -1093,23 +1088,6 @@ module.exports = function (exec, skipClosing) {
 
 /***/ }),
 
-/***/ "5eda":
-/***/ (function(module, exports, __webpack_require__) {
-
-// most Object methods by ES6 should accept primitives
-var $export = __webpack_require__("5ca1");
-var core = __webpack_require__("8378");
-var fails = __webpack_require__("79e5");
-module.exports = function (KEY, exec) {
-  var fn = (core.Object || {})[KEY] || Object[KEY];
-  var exp = {};
-  exp[KEY] = exec(fn);
-  $export($export.S + $export.F * fails(function () { fn(1); }), 'Object', exp);
-};
-
-
-/***/ }),
-
 /***/ "613b":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1202,17 +1180,6 @@ module.exports = function (index, length) {
   return index < 0 ? max(index + length, 0) : min(index, length);
 };
 
-
-/***/ }),
-
-/***/ "787c":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressBar_vue_vue_type_style_index_0_id_539f385a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("e86c");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressBar_vue_vue_type_style_index_0_id_539f385a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressBar_vue_vue_type_style_index_0_id_539f385a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ProgressBar_vue_vue_type_style_index_0_id_539f385a_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -1381,6 +1348,13 @@ exports.f = __webpack_require__("9e1e") ? Object.defineProperty : function defin
 
 /***/ }),
 
+/***/ "89a0":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "9b43":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1493,71 +1467,6 @@ function PromiseCapability(C) {
 module.exports.f = function (C) {
   return new PromiseCapability(C);
 };
-
-
-/***/ }),
-
-/***/ "ac6a":
-/***/ (function(module, exports, __webpack_require__) {
-
-var $iterators = __webpack_require__("cadf");
-var getKeys = __webpack_require__("0d58");
-var redefine = __webpack_require__("2aba");
-var global = __webpack_require__("7726");
-var hide = __webpack_require__("32e9");
-var Iterators = __webpack_require__("84f2");
-var wks = __webpack_require__("2b4c");
-var ITERATOR = wks('iterator');
-var TO_STRING_TAG = wks('toStringTag');
-var ArrayValues = Iterators.Array;
-
-var DOMIterables = {
-  CSSRuleList: true, // TODO: Not spec compliant, should be false.
-  CSSStyleDeclaration: false,
-  CSSValueList: false,
-  ClientRectList: false,
-  DOMRectList: false,
-  DOMStringList: false,
-  DOMTokenList: true,
-  DataTransferItemList: false,
-  FileList: false,
-  HTMLAllCollection: false,
-  HTMLCollection: false,
-  HTMLFormElement: false,
-  HTMLSelectElement: false,
-  MediaList: true, // TODO: Not spec compliant, should be false.
-  MimeTypeArray: false,
-  NamedNodeMap: false,
-  NodeList: true,
-  PaintRequestList: false,
-  Plugin: false,
-  PluginArray: false,
-  SVGLengthList: false,
-  SVGNumberList: false,
-  SVGPathSegList: false,
-  SVGPointList: false,
-  SVGStringList: false,
-  SVGTransformList: false,
-  SourceBufferList: false,
-  StyleSheetList: true, // TODO: Not spec compliant, should be false.
-  TextTrackCueList: false,
-  TextTrackList: false,
-  TouchList: false
-};
-
-for (var collections = getKeys(DOMIterables), i = 0; i < collections.length; i++) {
-  var NAME = collections[i];
-  var explicit = DOMIterables[NAME];
-  var Collection = global[NAME];
-  var proto = Collection && Collection.prototype;
-  var key;
-  if (proto) {
-    if (!proto[ITERATOR]) hide(proto, ITERATOR, ArrayValues);
-    if (!proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);
-    Iterators[NAME] = ArrayValues;
-    if (explicit) for (key in $iterators) if (!proto[key]) redefine(proto, key, $iterators[key], true);
-  }
-}
 
 
 /***/ }),
@@ -1777,13 +1686,6 @@ module.exports = (
 
 /***/ }),
 
-/***/ "e86c":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "ebd6":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1831,14 +1733,21 @@ __webpack_require__.r(__webpack_exports__);
 // This file is imported into lib/wc client bundles.
 
 if (typeof window !== 'undefined') {
-  var setPublicPath_i
-  if ((setPublicPath_i = window.document.currentScript) && (setPublicPath_i = setPublicPath_i.src.match(/(.+\/)[^/]+\.js$/))) {
-    __webpack_require__.p = setPublicPath_i[1] // eslint-disable-line
+  var i
+  if ((i = window.document.currentScript) && (i = i.src.match(/(.+\/)[^/]+\.js$/))) {
+    __webpack_require__.p = i[1] // eslint-disable-line
   }
 }
 
 // Indicate to webpack that this file can be concatenated
 /* harmony default export */ var setPublicPath = (null);
+
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=template&id=4a85bac4&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _vm._m(0)}
+var staticRenderFns = [function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h1',[_vm._v("Progress bar")])])}]
+
+
+// CONCATENATED MODULE: ./src/App.vue?vue&type=template&id=4a85bac4&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.array.iterator.js
 var es6_array_iterator = __webpack_require__("cadf");
@@ -1849,171 +1758,23 @@ var es6_promise = __webpack_require__("551c");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es7.promise.finally.js
 var es7_promise_finally = __webpack_require__("097d");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/ProgressBar.vue?vue&type=template&id=539f385a&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"simple-progress"},[_c('div',{staticClass:"simple-progress__bar",style:(_vm.progressBarStyle)})])}
-var staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/ProgressBar.vue?vue&type=template&id=539f385a&scoped=true&
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.keys.js
-var es6_object_keys = __webpack_require__("456d");
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
-var web_dom_iterable = __webpack_require__("ac6a");
-
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/defineProperty.js
-function _defineProperty(obj, key, value) {
-  if (key in obj) {
-    Object.defineProperty(obj, key, {
-      value: value,
-      enumerable: true,
-      configurable: true,
-      writable: true
-    });
-  } else {
-    obj[key] = value;
-  }
-
-  return obj;
-}
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/objectSpread.js
-
-function _objectSpread(target) {
-  for (var i = 1; i < arguments.length; i++) {
-    var source = arguments[i] != null ? arguments[i] : {};
-    var ownKeys = Object.keys(source);
-
-    if (typeof Object.getOwnPropertySymbols === 'function') {
-      ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) {
-        return Object.getOwnPropertyDescriptor(source, sym).enumerable;
-      }));
-    }
-
-    ownKeys.forEach(function (key) {
-      _defineProperty(target, key, source[key]);
-    });
-  }
-
-  return target;
-}
-// CONCATENATED MODULE: ./src/common.js
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/App.vue?vue&type=script&lang=js&
 
 
 
-/* harmony default export */ var common = ({
-  randomFrom: function randomFrom(l, u) {
-    return Math.floor(Math.random() * (u - l + 1) + l);
-  }
+//
+//
+//
+//
+//
+//
+/* harmony default export */ var Appvue_type_script_lang_js_ = ({
+  name: 'App'
 });
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/ProgressBar.vue?vue&type=script&lang=js&
-
-
-
-
-
-
-//
-//
-//
-//
-//
-//
-//
-//
-
-var color = {
-  primary: '#66D9EF',
-  error: '#F92672',
-  warn: '#F6B930',
-  success: '#29B479'
-};
-/* harmony default export */ var ProgressBarvue_type_script_lang_js_ = ({
-  name: 'progress-bar',
-  data: function data() {
-    return {
-      currProgress: 0,
-      bgColor: color.primary,
-      transitionAttr: {
-        transitionDuration: '800ms, 1500ms, 200ms, 200ms',
-        transitionTimingFunction: 'ease, ease, ease, ease'
-      }
-    };
-  },
-  computed: {
-    progressBarStyle: function progressBarStyle() {
-      return _objectSpread({
-        backgroundColor: this.bgColor,
-        width: this.currProgress + '%',
-        opacity: this.currProgress >= 100 || this.currProgress == 0 ? 0 : 1
-      }, this.transitionAttr);
-    }
-  },
-  methods: {
-    registerEventListener: function registerEventListener() {
-      var _this = this;
-
-      this.$progressListeners = {
-        'start': this.onStart,
-        'finish': this.onFinish,
-        'successFinish': this.onSuccessFinish,
-        'warningFinish': this.onWarningFinish,
-        'errorFinish': this.onErrorFinish
-      };
-      Object.keys(this.$progressListeners).forEach(function (val) {
-        _this.$on(val, _this.$progressListeners[val]);
-      });
-    },
-    onStart: function onStart() {
-      var _this2 = this;
-
-      var initProgress = common.randomFrom(0, 80);
-
-      this.currProgress = initProgress;
-      this.$timerId = setInterval(function () {
-        _this2.transitionAttr = _objectSpread({}, _this2.transitionAttr, {
-          transitionDuration: '400ms, 1500ms, 200ms, 200ms'
-        });
-        _this2.currProgress += (100 - _this2.currProgress) / common.randomFrom(5, 20);
-      }, 600);
-    },
-    onFinish: function onFinish() {
-      var bgColor = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : color.primary;
-      clearInterval(this.$timerId);
-      this.transitionAttr = _objectSpread({}, this.transitionAttr, {
-        transitionDuration: '300ms, 1500ms, 200ms, 200ms'
-      });
-      this.bgColor = bgColor;
-      this.currProgress = 100;
-    },
-    onSuccessFinish: function onSuccessFinish() {
-      this.onFinish(color.success);
-    },
-    onErrorFinish: function onErrorFinish() {
-      this.onFinish(color.error);
-    },
-    onWarningFinish: function onWarningFinish() {
-      this.onFinish(color.warn);
-    },
-    deleteEventListener: function deleteEventListener() {
-      var _this3 = this;
-
-      Object.keys(this.$progressListeners).forEach(function (val) {
-        _this3.$off(val, _this3.$progressListeners[val]);
-      });
-    }
-  },
-  created: function created() {
-    this.registerEventListener();
-  },
-  beforeDestroy: function beforeDestroy() {
-    this.deleteEventListener();
-  }
-});
-// CONCATENATED MODULE: ./src/ProgressBar.vue?vue&type=script&lang=js&
- /* harmony default export */ var src_ProgressBarvue_type_script_lang_js_ = (ProgressBarvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/ProgressBar.vue?vue&type=style&index=0&id=539f385a&scoped=true&lang=css&
-var ProgressBarvue_type_style_index_0_id_539f385a_scoped_true_lang_css_ = __webpack_require__("787c");
+// CONCATENATED MODULE: ./src/App.vue?vue&type=script&lang=js&
+ /* harmony default export */ var src_Appvue_type_script_lang_js_ = (Appvue_type_script_lang_js_); 
+// EXTERNAL MODULE: ./src/App.vue?vue&type=style&index=0&id=4a85bac4&scoped=true&lang=css&
+var Appvue_type_style_index_0_id_4a85bac4_scoped_true_lang_css_ = __webpack_require__("013d");
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -2110,7 +1871,7 @@ function normalizeComponent (
   }
 }
 
-// CONCATENATED MODULE: ./src/ProgressBar.vue
+// CONCATENATED MODULE: ./src/App.vue
 
 
 
@@ -2120,62 +1881,26 @@ function normalizeComponent (
 /* normalize component */
 
 var component = normalizeComponent(
-  src_ProgressBarvue_type_script_lang_js_,
+  src_Appvue_type_script_lang_js_,
   render,
   staticRenderFns,
   false,
   null,
-  "539f385a",
+  "4a85bac4",
   null
   
 )
 
-component.options.__file = "ProgressBar.vue"
-/* harmony default export */ var ProgressBar = (component.exports);
-// CONCATENATED MODULE: ./src/main.js
-
-
-
-
-/* harmony default export */ var main = ({
-  progressBarInstance: null,
-  install: function install(Vue, options) {
-    var _this = this;
-
-    var progressBarConstructor = Vue.extend(ProgressBar);
-    this.progressBarInstance = new progressBarConstructor().$mount();
-    document.body.appendChild(this.progressBarInstance.$el);
-    var methods = Vue.$progress = Vue.prototype.$progress = {};
-
-    methods.start = function () {
-      _this.progressBarInstance.$emit('start');
-    };
-
-    methods.finish = function () {
-      _this.progressBarInstance.$emit('finish');
-    };
-
-    methods.error = function () {
-      _this.progressBarInstance.$emit('errorFinish');
-    };
-
-    methods.warning = function () {
-      _this.progressBarInstance.$emit('warningFinish');
-    };
-
-    methods.success = function () {
-      _this.progressBarInstance.$emit('successFinish');
-    };
-  }
-});
+component.options.__file = "App.vue"
+/* harmony default export */ var App = (component.exports);
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (main);
+/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (App);
 
 
 
 /***/ })
 
-/******/ });
-//# sourceMappingURL=vue-simple-progressbar.common.js.map
+/******/ })["default"];
+//# sourceMappingURL=vurSimpleProgressBar.common.js.map
