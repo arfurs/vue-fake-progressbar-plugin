@@ -1,18 +1,44 @@
-## 这是一个Vue进度条插件的repo...
+## Vuejs假进度条插件（网站上方假进度条）
+## Vue.js fake progress bar plugin (fake progress bar above the website)
 
-### 使用 & Usage
+### Usage
 
 `npm i vue-simple-progressbar -S`
 
-`import vpr from 'vue-simple-progressbar'`
-`Vue.use(vpr)`
+```javascript
+import vsp from 'vue-simple-progressbar'
 
-`Vue.$progress.start()`
-`Vue.$progress.finish()`
-`Vue.$progress.error()`
-`Vue.$progress.success()`
-`Vue.$progress.warning()`
+Vue.use(vsp)
 
-#### Or through component instance
+Vue.$progress.start()
+
+Vue.$progress.finish()
+
+this.$progress.start({
+  color: 'red',
+  shadow: '0px 0px 5px yellow'
+})
+
+setTimeout(() => {
+  this.$progress.finish({
+    color: 'red',
+    shadow: '0px 0px 10px red',
+    callback: () => {} // transitionend callback
+  })
+}, 5000)
+```
+
+#### Call through component instance:
 
 `this.$progress.{method}()`
+
+#### Config
+```javascript
+  Vue.use(vsp, {
+    name: '$xxxProgressBar'
+  })
+
+  Vue.$xxxProgressBar.start()
+
+  this.$xxxProgressBar.start()
+```
