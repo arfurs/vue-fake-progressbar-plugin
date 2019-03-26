@@ -1,5 +1,5 @@
-## Vuejs假进度条插件（网站上方假进度条）
-## Vue.js fake progress bar plugin (fake progress bar above the website)
+# Vuejs假进度条插件（网站上方假进度条）
+### Vue.js fake progress bar plugin (fake progress bar above the website)
 
 ### Usage
 
@@ -34,11 +34,9 @@ setTimeout(() => {
 
 #### Config
 ```javascript
-  Vue.use(vsp, {
-    name: '$xxxProgressBar'
-  })
+Vue.use(vsp, {
+  name: '$xxxProgressBar'
+})
 
-  Vue.$xxxProgressBar.start()
-
-  this.$xxxProgressBar.start()
+Vue.$xxxProgressBar.start()
 ```
