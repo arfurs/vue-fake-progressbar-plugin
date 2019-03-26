@@ -31,7 +31,7 @@ export default {
       })
       this.$nextTick(() => {
         const progressBarElNodes = this.$refs.progressBars
-        progressBarElNodes[progressBarElNodes.length - 1].$emit('start', { options })
+        progressBarElNodes[progressBarElNodes.length - 1].$emit('start', options)
       })
     },
     removeProgressBar(options = {}) {
