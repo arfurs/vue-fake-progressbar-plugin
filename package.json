@@ -6,8 +6,15 @@
   "keywords": [
     "vue plugin",
     "vue",
-    "progressbar"
+    "vue.js",
+    "progressbar",
+    "fake progressbar"
   ],
+  "homepage": "https://github.com/arfurs/vue-simple-progressbar-plugin",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arfurs/vue-simple-progressbar-plugin.git"
+  },
   "private": false,
   "main": "index.js",
   "scripts": {
