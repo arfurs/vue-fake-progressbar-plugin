@@ -388,6 +388,13 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 /***/ }),
 
+/***/ "40b6":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
+
+/***/ }),
+
 /***/ "41a0":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -473,6 +480,17 @@ var store = global[SHARED] || (global[SHARED] = {});
   copyright: '© 2018 Denis Pushkarev (zloirock.ru)'
 });
 
+
+/***/ }),
+
+/***/ "5555":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_13948a07_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("40b6");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_13948a07_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_13948a07_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_13948a07_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -826,24 +844,6 @@ module.exports = !__webpack_require__("79e5")(function () {
 
 /***/ }),
 
-/***/ "a1da":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_2ab2669e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("a522");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_2ab2669e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_2ab2669e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_2ab2669e_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
-/***/ "a522":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "a6fb":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1191,12 +1191,12 @@ function _objectSpread(target) {
 
   return target;
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/progressBar.vue?vue&type=template&id=2ab2669e&scoped=true&
-var progressBarvue_type_template_id_2ab2669e_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"progressBar",staticClass:"vue-simple-progress-bar",style:(_vm.progressBarStyle)})}
-var progressBarvue_type_template_id_2ab2669e_scoped_true_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/progressBar.vue?vue&type=template&id=13948a07&scoped=true&
+var progressBarvue_type_template_id_13948a07_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"progressBar",staticClass:"vue-simple-progress-bar",style:(_vm.progressBarStyle)})}
+var progressBarvue_type_template_id_13948a07_scoped_true_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/progressBar.vue?vue&type=template&id=2ab2669e&scoped=true&
+// CONCATENATED MODULE: ./src/components/progressBar.vue?vue&type=template&id=13948a07&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
@@ -1219,8 +1219,8 @@ var web_dom_iterable = __webpack_require__("ac6a");
     return {
       currProgress: 0,
       transitionAttr: {
-        transitionDuration: '800ms, 1500ms, 200ms, 200ms',
-        transitionTimingFunction: 'ease, ease, ease, ease'
+        transitionDuration: '800ms,1500ms,200ms,200ms',
+        transitionTimingFunction: 'ease ease ease ease'
       },
       options: {
         color: '#66D9EF',
@@ -1230,12 +1230,12 @@ var web_dom_iterable = __webpack_require__("ac6a");
   },
   computed: {
     progressBarStyle: function progressBarStyle() {
-      return _objectSpread({
+      return _objectSpread({}, this.transitionAttr, {
+        opacity: this.currProgress >= 100 || this.currProgress == 0 ? 0 : 1,
         backgroundColor: this.options.color,
         boxShadow: this.options.shadow,
-        width: this.currProgress + '%',
-        opacity: this.currProgress >= 100 || this.currProgress == 0 ? 0 : 1
-      }, this.transitionAttr);
+        width: this.currProgress + '%'
+      });
     }
   },
   created: function created() {
@@ -1256,16 +1256,18 @@ var web_dom_iterable = __webpack_require__("ac6a");
     start: function start() {
       var _this2 = this;
 
-      var initProgress = this._randomFrom(20, 80);
+      this.transitionAttr.transitionDuration = '800ms, 1500ms, 200ms, 200ms';
+      this.$nextTick(function () {
+        setTimeout(function () {
+          var initProgress = _this2._randomFrom(20, 80);
 
-      this.currProgress = initProgress;
-      this.transitionAttr = _objectSpread({}, this.transitionAttr, {
-        transitionDuration: '400ms, 0ms, 200ms, 200ms'
+          _this2.currProgress = initProgress;
+          _this2.$timerId = setInterval(function () {
+            if (_this2.currProgress >= 98) clearInterval(_this2.$timerId);
+            _this2.currProgress += (100 - _this2.currProgress) / _this2._randomFrom(10, 50);
+          }, 600);
+        }, 4);
       });
-      this.$timerId = setInterval(function () {
-        if (_this2.currProgress >= 98) clearInterval(_this2.$timerId);
-        _this2.currProgress += (100 - _this2.currProgress) / _this2._randomFrom(10, 50);
-      }, 600);
     },
     finish: function finish() {
       var _this3 = this;
@@ -1280,7 +1282,8 @@ var web_dom_iterable = __webpack_require__("ac6a");
       this.currProgress = 100;
       this.$nextTick().then(function () {
         var transitionEndListener = function transitionEndListener(event) {
-          event.propertyName === 'opacity' && callback && callback();
+          event.propertyName === 'opacity' && callback && callback(); // eslint-disable-next-line
+          // debugger
         };
 
         ['transitionend', 'webkitTransitionEnd', 'oTransitionEnd'].forEach(function (eventName) {
@@ -1297,8 +1300,8 @@ var web_dom_iterable = __webpack_require__("ac6a");
 });
 // CONCATENATED MODULE: ./src/components/progressBar.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_progressBarvue_type_script_lang_js_ = (progressBarvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/progressBar.vue?vue&type=style&index=0&id=2ab2669e&scoped=true&lang=css&
-var progressBarvue_type_style_index_0_id_2ab2669e_scoped_true_lang_css_ = __webpack_require__("a1da");
+// EXTERNAL MODULE: ./src/components/progressBar.vue?vue&type=style&index=0&id=13948a07&scoped=true&lang=css&
+var progressBarvue_type_style_index_0_id_13948a07_scoped_true_lang_css_ = __webpack_require__("5555");
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -1406,11 +1409,11 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   components_progressBarvue_type_script_lang_js_,
-  progressBarvue_type_template_id_2ab2669e_scoped_true_render,
-  progressBarvue_type_template_id_2ab2669e_scoped_true_staticRenderFns,
+  progressBarvue_type_template_id_13948a07_scoped_true_render,
+  progressBarvue_type_template_id_13948a07_scoped_true_staticRenderFns,
   false,
   null,
-  "2ab2669e",
+  "13948a07",
   null
   
 )
