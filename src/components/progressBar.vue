@@ -7,19 +7,17 @@
 </template>
 
 <script>
+  import config from '@/config'
   export default {
     name: 'ProgressBar',
     data() {
       return {
         currProgress: 0,
         transitionAttr: {
-          transitionDuration: '800ms,1500ms,200ms,200ms',
-          transitionTimingFunction: 'ease ease ease ease'
+          transitionDuration: '800ms, 1000ms, 200ms, 200ms',
+          transitionTimingFunction: 'ease-in ease ease ease'
         },
-        options: {
-          color: '#66D9EF',
-          shadow: '0px 0px 10px #66D9EF'
-        }
+        tempOptions: {}
       }
     },
     computed: {
@@ -27,9 +25,10 @@
         return {
           ...this.transitionAttr,
           opacity: (this.currProgress >= 100 || this.currProgress == 0) ? 0 : 1,
-          backgroundColor: this.options.color,
-          boxShadow: this.options.shadow,
-          width: this.currProgress + '%'
+          backgroundColor: this.tempOptions.color || config.color,
+          boxShadow: this.tempOptions.shadow || config.shadow,
+          width: this.currProgress + '%',
+          height: this.tempOptions.height || config.height
         }
       }
     },
@@ -43,8 +42,8 @@
     },
     methods: {
       dispatch(action, options) {
-        Object.assign(this.options, options)
-        this[action](options)
+        Object.assign(this.tempOptions, options)
+        this[action](options.callback)
       },
       start() {
         this.transitionAttr.transitionDuration = '800ms, 1500ms, 200ms, 200ms'
@@ -59,7 +58,7 @@
           }, 4)
         })
       },
-      finish({ callback } = {}) {
+      finish(callback) {
         clearInterval(this.$timerId)
         this.transitionAttr = {
           ...this.transitionAttr,
@@ -67,14 +66,12 @@
         }
         this.currProgress = 100
         this.$nextTick().then(() => {
-          const transitionEndListener = event => {
+          const transitionEndHandler = event => {
             event.propertyName === 'opacity' && callback && callback()
-            // eslint-disable-next-line
-            // debugger
           }
           ['transitionend', 'webkitTransitionEnd', 'oTransitionEnd']
             .forEach(eventName => {
-              this.$refs.progressBar.addEventListener(eventName, transitionEndListener, {
+              this.$refs.progressBar.addEventListener(eventName, transitionEndHandler, {
                 passive: true
               })
           } )
@@ -94,7 +91,9 @@
   top: 0px;
   width: 0%;
   height: 100%;
-  border-radius: 10px;
-  transition: width 500ms ease 0ms, opacity 500ms ease 0ms, background-color 500ms ease 0ms, box-shadow 500ms ease 0ms;
+  border-bottom-right-radius: 115px;
+  border-top-right-radius: 115px;
+  transition-property: width, opacity, background-color, box-shadow;
+  /* transition: width 500ms ease 0ms, opacity 500ms ease 0ms, background-color 500ms ease 0ms, box-shadow 500ms ease 0ms; */
 }
 </style>

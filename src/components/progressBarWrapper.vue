@@ -60,7 +60,6 @@ export default {
   left: 0px;
   top: 0px;
   width: 100%;
-  height: 2px;
   z-index: 99999;
 }
 </style>

@@ -9,7 +9,8 @@ new Vue({
     // Vue.$progress.start()
     this.$progress.start({
       color: 'red',
-      shadow: '0px 0px 5px yellow'
+      shadow: '0px 0px 8px yellow',
+      height: '3px'
     })
     setTimeout(() => {
       this.$progress.finish()
