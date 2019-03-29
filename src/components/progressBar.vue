@@ -14,8 +14,7 @@
       return {
         currProgress: 0,
         transitionAttr: {
-          transitionDuration: '800ms, 1000ms, 200ms, 200ms',
-          transitionTimingFunction: 'ease-in ease ease ease'
+          transitionDuration: ''
         },
         tempOptions: {}
       }
@@ -33,22 +32,20 @@
       }
     },
     created() {
-      this.$on('start', options => {
-        this.dispatch('start', options)
-      })
-      this.$on('finish', options => {
-        this.dispatch('finish', options)
-      })
+      this.$on('dispatch', this.dispatch)
     },
     methods: {
-      dispatch(action, options) {
+      dispatch({ action, options = {} }) {
         Object.assign(this.tempOptions, options)
         this[action](options.callback)
       },
       start() {
-        this.transitionAttr.transitionDuration = '800ms, 1500ms, 200ms, 200ms'
-        this.$nextTick(() => {
+        clearInterval(this.$timerId)
+        this.transitionAttr.transitionDuration = '0ms, 1000ms, 200ms, 200ms'
+        this.currProgress = 0
+        this.$nextTick(function() {
           setTimeout(() => {
+            this.transitionAttr.transitionDuration = '500ms, 1000ms, 200ms, 200ms'
             let initProgress = this._randomFrom(20, 80)
             this.currProgress = initProgress
             this.$timerId = setInterval(() => {
@@ -60,21 +57,21 @@
       },
       finish(callback) {
         clearInterval(this.$timerId)
-        this.transitionAttr = {
-          ...this.transitionAttr,
-          transitionDuration: '300ms, 1500ms, 200ms, 200ms'
-        }
+        this.transitionAttr.transitionDuration = '300ms, 1500ms, 200ms, 200ms'
         this.currProgress = 100
-        this.$nextTick().then(() => {
+        this.$nextTick(() => {
           const transitionEndHandler = event => {
-            event.propertyName === 'opacity' && callback && callback()
+            if (event.propertyName === 'opacity') {
+              this.transitionDuration = '0ms, 1500ms, 200ms, 200ms'
+              callback && callback()
+            }
           }
           ['transitionend', 'webkitTransitionEnd', 'oTransitionEnd']
             .forEach(eventName => {
               this.$refs.progressBar.addEventListener(eventName, transitionEndHandler, {
                 passive: true
               })
-          } )
+            })
         })
       },
       _randomFrom(l, u) {
@@ -94,6 +91,5 @@
   border-bottom-right-radius: 115px;
   border-top-right-radius: 115px;
   transition-property: width, opacity, background-color, box-shadow;
-  /* transition: width 500ms ease 0ms, opacity 500ms ease 0ms, background-color 500ms ease 0ms, box-shadow 500ms ease 0ms; */
 }
 </style>

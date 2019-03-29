@@ -187,6 +187,17 @@ module.exports = Object.keys || function keys(O) {
 
 /***/ }),
 
+/***/ "10eb":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_70d56e41_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("ed3c");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_70d56e41_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_70d56e41_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_70d56e41_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "1495":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -526,17 +537,6 @@ module.exports = $export;
 
 /***/ }),
 
-/***/ "60e6":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBarWrapper_vue_vue_type_style_index_0_id_1d1e5e38_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("f672");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBarWrapper_vue_vue_type_style_index_0_id_1d1e5e38_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBarWrapper_vue_vue_type_style_index_0_id_1d1e5e38_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBarWrapper_vue_vue_type_style_index_0_id_1d1e5e38_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
 /***/ "613b":
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -559,13 +559,6 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
   return cof(it) == 'String' ? it.split('') : Object(it);
 };
 
-
-/***/ }),
-
-/***/ "63e0":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -769,17 +762,6 @@ exports.f = __webpack_require__("9e1e") ? Object.defineProperty : function defin
   return O;
 };
 
-
-/***/ }),
-
-/***/ "9b22":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_6caddd8c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("63e0");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_6caddd8c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_6caddd8c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_6caddd8c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
 
 /***/ }),
 
@@ -1097,7 +1079,7 @@ module.exports = (
 
 /***/ }),
 
-/***/ "f672":
+/***/ "ed3c":
 /***/ (function(module, exports, __webpack_require__) {
 
 // extracted by mini-css-extract-plugin
@@ -1149,13 +1131,29 @@ var es6_function_name = __webpack_require__("7f7f");
 // EXTERNAL MODULE: ./node_modules/core-js/modules/es6.object.assign.js
 var es6_object_assign = __webpack_require__("f751");
 
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/progressBarWrapper.vue?vue&type=template&id=1d1e5e38&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"wrapper",staticClass:"vue-simple-progress-bar-wrapper"},_vm._l((_vm.queue),function(item){return _c('progress-bar',{key:item.key,ref:"progressBars",refInFor:true})}))}
-var staticRenderFns = []
+// CONCATENATED MODULE: ./src/config.js
+/* harmony default export */ var src_config = ({
+  name: '$progress',
+  height: '3px',
+  color: '#66D9EF',
+  shadowColor: '#66D9EF'
+});
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/typeof.js
+function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
 
+function _typeof(obj) {
+  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
+    _typeof = function _typeof(obj) {
+      return _typeof2(obj);
+    };
+  } else {
+    _typeof = function _typeof(obj) {
+      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
+    };
+  }
 
-// CONCATENATED MODULE: ./src/components/progressBarWrapper.vue?vue&type=template&id=1d1e5e38&scoped=true&
-
+  return _typeof(obj);
+}
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/defineProperty.js
 function _defineProperty(obj, key, value) {
   if (key in obj) {
@@ -1171,6 +1169,44 @@ function _defineProperty(obj, key, value) {
 
   return obj;
 }
+// CONCATENATED MODULE: ./src/utils.js
+
+
+
+function mergeDeep(target) {
+  for (var _len = arguments.length, sources = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+    sources[_key - 1] = arguments[_key];
+  }
+
+  if (!sources.length) return target;
+  var source = sources.shift();
+
+  if (isObject(target) && isObject(source)) {
+    for (var key in source) {
+      if (isObject(source[key])) {
+        if (!target[key]) Object.assign(target, _defineProperty({}, key, {}));
+        mergeDeep(target[key], source[key]);
+      } else {
+        Object.assign(target, _defineProperty({}, key, source[key]));
+      }
+    }
+  }
+
+  return mergeDeep.apply(void 0, [target].concat(sources));
+}
+function isObject(item) {
+  return item && _typeof(item) === 'object' && !Array.isArray(item);
+}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/progressBar.vue?vue&type=template&id=70d56e41&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"progressBar",staticClass:"vue-simple-progress-bar",style:(_vm.progressBarStyle)})}
+var staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/progressBar.vue?vue&type=template&id=70d56e41&scoped=true&
+
+// EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
+var web_dom_iterable = __webpack_require__("ac6a");
+
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/objectSpread.js
 
 function _objectSpread(target) {
@@ -1191,23 +1227,6 @@ function _objectSpread(target) {
 
   return target;
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/progressBar.vue?vue&type=template&id=6caddd8c&scoped=true&
-var progressBarvue_type_template_id_6caddd8c_scoped_true_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"progressBar",staticClass:"vue-simple-progress-bar",style:(_vm.progressBarStyle)})}
-var progressBarvue_type_template_id_6caddd8c_scoped_true_staticRenderFns = []
-
-
-// CONCATENATED MODULE: ./src/components/progressBar.vue?vue&type=template&id=6caddd8c&scoped=true&
-
-// EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
-var web_dom_iterable = __webpack_require__("ac6a");
-
-// CONCATENATED MODULE: ./src/config.js
-/* harmony default export */ var src_config = ({
-  name: '$progress',
-  height: '2px',
-  color: '#66D9EF',
-  shadowColor: '#66D9EF'
-});
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/progressBar.vue?vue&type=script&lang=js&
 
 
@@ -1227,8 +1246,7 @@ var web_dom_iterable = __webpack_require__("ac6a");
     return {
       currProgress: 0,
       transitionAttr: {
-        transitionDuration: '800ms, 1000ms, 200ms, 200ms',
-        transitionTimingFunction: 'ease-in ease ease ease'
+        transitionDuration: ''
       },
       tempOptions: {}
     };
@@ -1245,51 +1263,52 @@ var web_dom_iterable = __webpack_require__("ac6a");
     }
   },
   created: function created() {
-    var _this = this;
-
-    this.$on('start', function (options) {
-      _this.dispatch('start', options);
-    });
-    this.$on('finish', function (options) {
-      _this.dispatch('finish', options);
-    });
+    this.$on('dispatch', this.dispatch);
   },
   methods: {
-    dispatch: function dispatch(action, options) {
+    dispatch: function dispatch(_ref) {
+      var action = _ref.action,
+          _ref$options = _ref.options,
+          options = _ref$options === void 0 ? {} : _ref$options;
       Object.assign(this.tempOptions, options);
       this[action](options.callback);
     },
     start: function start() {
-      var _this2 = this;
-
-      this.transitionAttr.transitionDuration = '800ms, 1500ms, 200ms, 200ms';
+      clearInterval(this.$timerId);
+      this.transitionAttr.transitionDuration = '0ms, 1000ms, 200ms, 200ms';
+      this.currProgress = 0;
       this.$nextTick(function () {
-        setTimeout(function () {
-          var initProgress = _this2._randomFrom(20, 80);
+        var _this = this;
 
-          _this2.currProgress = initProgress;
-          _this2.$timerId = setInterval(function () {
-            if (_this2.currProgress >= 98) clearInterval(_this2.$timerId);
-            _this2.currProgress += (100 - _this2.currProgress) / _this2._randomFrom(10, 50);
+        setTimeout(function () {
+          _this.transitionAttr.transitionDuration = '500ms, 1000ms, 200ms, 200ms';
+
+          var initProgress = _this._randomFrom(20, 80);
+
+          _this.currProgress = initProgress;
+          _this.$timerId = setInterval(function () {
+            if (_this.currProgress >= 98) clearInterval(_this.$timerId);
+            _this.currProgress += (100 - _this.currProgress) / _this._randomFrom(10, 50);
           }, 600);
         }, 14);
       });
     },
     finish: function finish(callback) {
-      var _this3 = this;
+      var _this2 = this;
 
       clearInterval(this.$timerId);
-      this.transitionAttr = _objectSpread({}, this.transitionAttr, {
-        transitionDuration: '300ms, 1500ms, 200ms, 200ms'
-      });
+      this.transitionAttr.transitionDuration = '300ms, 1500ms, 200ms, 200ms';
       this.currProgress = 100;
-      this.$nextTick().then(function () {
+      this.$nextTick(function () {
         var transitionEndHandler = function transitionEndHandler(event) {
-          event.propertyName === 'opacity' && callback && callback();
+          if (event.propertyName === 'opacity') {
+            _this2.transitionDuration = '0ms, 1500ms, 200ms, 200ms';
+            callback && callback();
+          }
         };
 
         ['transitionend', 'webkitTransitionEnd', 'oTransitionEnd'].forEach(function (eventName) {
-          _this3.$refs.progressBar.addEventListener(eventName, transitionEndHandler, {
+          _this2.$refs.progressBar.addEventListener(eventName, transitionEndHandler, {
             passive: true
           });
         });
@@ -1302,8 +1321,8 @@ var web_dom_iterable = __webpack_require__("ac6a");
 });
 // CONCATENATED MODULE: ./src/components/progressBar.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_progressBarvue_type_script_lang_js_ = (progressBarvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/progressBar.vue?vue&type=style&index=0&id=6caddd8c&scoped=true&lang=css&
-var progressBarvue_type_style_index_0_id_6caddd8c_scoped_true_lang_css_ = __webpack_require__("9b22");
+// EXTERNAL MODULE: ./src/components/progressBar.vue?vue&type=style&index=0&id=70d56e41&scoped=true&lang=css&
+var progressBarvue_type_style_index_0_id_70d56e41_scoped_true_lang_css_ = __webpack_require__("10eb");
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -1411,149 +1430,17 @@ function normalizeComponent (
 
 var component = normalizeComponent(
   components_progressBarvue_type_script_lang_js_,
-  progressBarvue_type_template_id_6caddd8c_scoped_true_render,
-  progressBarvue_type_template_id_6caddd8c_scoped_true_staticRenderFns,
+  render,
+  staticRenderFns,
   false,
   null,
-  "6caddd8c",
+  "70d56e41",
   null
   
 )
 
 component.options.__file = "progressBar.vue"
 /* harmony default export */ var progressBar = (component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/progressBarWrapper.vue?vue&type=script&lang=js&
-
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-
-/* harmony default export */ var progressBarWrappervue_type_script_lang_js_ = ({
-  name: 'Index',
-  components: {
-    ProgressBar: progressBar
-  },
-  data: function data() {
-    return {
-      queue: []
-    };
-  },
-  created: function created() {
-    this.$on('start', this.addProgressBar);
-    this.$on('finish', this.removeProgressBar);
-  },
-  methods: {
-    addProgressBar: function addProgressBar() {
-      var _this = this;
-
-      var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-      this.queue.push({
-        key: this._getIncrementId()
-      });
-      this.$nextTick(function () {
-        var progressBarElNodes = _this.$refs.progressBars;
-        progressBarElNodes[progressBarElNodes.length - 1].$emit('start', options);
-      });
-    },
-    removeProgressBar: function removeProgressBar() {
-      var _this2 = this;
-
-      var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
-      this.$refs.progressBars[0].$emit('finish', _objectSpread({}, options, {
-        callback: function callback() {
-          _this2.queue.shift();
-
-          options.callback && options.callback();
-        }
-      }));
-    },
-    _getIncrementId: function _getIncrementId() {
-      if (!this.$progressBarIncrementID) {
-        this.$progressBarIncrementID = 0;
-      }
-
-      return this.$progressBarIncrementID++;
-    }
-  }
-});
-// CONCATENATED MODULE: ./src/components/progressBarWrapper.vue?vue&type=script&lang=js&
- /* harmony default export */ var components_progressBarWrappervue_type_script_lang_js_ = (progressBarWrappervue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/progressBarWrapper.vue?vue&type=style&index=0&id=1d1e5e38&scoped=true&lang=css&
-var progressBarWrappervue_type_style_index_0_id_1d1e5e38_scoped_true_lang_css_ = __webpack_require__("60e6");
-
-// CONCATENATED MODULE: ./src/components/progressBarWrapper.vue
-
-
-
-
-
-
-/* normalize component */
-
-var progressBarWrapper_component = normalizeComponent(
-  components_progressBarWrappervue_type_script_lang_js_,
-  render,
-  staticRenderFns,
-  false,
-  null,
-  "1d1e5e38",
-  null
-  
-)
-
-progressBarWrapper_component.options.__file = "progressBarWrapper.vue"
-/* harmony default export */ var progressBarWrapper = (progressBarWrapper_component.exports);
-// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/typeof.js
-function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
-
-function _typeof(obj) {
-  if (typeof Symbol === "function" && _typeof2(Symbol.iterator) === "symbol") {
-    _typeof = function _typeof(obj) {
-      return _typeof2(obj);
-    };
-  } else {
-    _typeof = function _typeof(obj) {
-      return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : _typeof2(obj);
-    };
-  }
-
-  return _typeof(obj);
-}
-// CONCATENATED MODULE: ./src/utils.js
-
-
-
-function mergeDeep(target) {
-  for (var _len = arguments.length, sources = new Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
-    sources[_key - 1] = arguments[_key];
-  }
-
-  if (!sources.length) return target;
-  var source = sources.shift();
-
-  if (isObject(target) && isObject(source)) {
-    for (var key in source) {
-      if (isObject(source[key])) {
-        if (!target[key]) Object.assign(target, _defineProperty({}, key, {}));
-        mergeDeep(target[key], source[key]);
-      } else {
-        Object.assign(target, _defineProperty({}, key, source[key]));
-      }
-    }
-  }
-
-  return mergeDeep.apply(void 0, [target].concat(sources));
-}
-function isObject(item) {
-  return item && _typeof(item) === 'object' && !Array.isArray(item);
-}
 // CONCATENATED MODULE: ./src/index.js
 
 
@@ -1561,26 +1448,32 @@ function isObject(item) {
 
 
 /* harmony default export */ var src = ({
-  progressBarWrapperComponentInstance: null,
+  progressBartInstance: null,
   install: function install(Vue, config) {
     var _this = this;
 
     config = mergeDeep(src_config, config);
-    this.progressBarWrapperComponentInstance = this.createProgressBarWrapperComponent(Vue);
+    this.progressBartInstance = this.createProgressBarComponent(Vue, progressBar);
     var dispatcher = {
       start: function start(options) {
-        return _this.progressBarWrapperComponentInstance.$emit('start', options);
+        return _this.progressBartInstance.$emit('dispatch', {
+          action: 'start',
+          options: options
+        });
       },
       finish: function finish(options) {
-        return _this.progressBarWrapperComponentInstance.$emit('finish', options);
+        return _this.progressBartInstance.$emit('dispatch', {
+          action: 'finish',
+          options: options
+        });
       }
     };
     Object.assign(this, dispatcher);
     Vue[config.name] = Vue.prototype[config.name] = dispatcher;
   },
-  createProgressBarWrapperComponent: function createProgressBarWrapperComponent(VueConsturctor) {
-    var progressBarWrapperConstructor = VueConsturctor.extend(progressBarWrapper);
-    var instance = new progressBarWrapperConstructor().$mount();
+  createProgressBarComponent: function createProgressBarComponent(VueConsturctor, progressBarCmpt) {
+    var progressBarConstructor = VueConsturctor.extend(progressBarCmpt);
+    var instance = new progressBarConstructor().$mount();
     document.body.appendChild(instance.$el);
     return instance;
   }
