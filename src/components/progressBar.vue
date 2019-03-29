@@ -86,6 +86,7 @@
   position: absolute;
   left: 0px;
   top: 0px;
+  z-index: 10000;
   width: 0%;
   height: 100%;
   border-bottom-right-radius: 115px;
