@@ -83,7 +83,7 @@
 
 <style scoped>
 .vue-simple-progress-bar {
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   z-index: 10000;
