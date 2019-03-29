@@ -7,7 +7,7 @@
 </template>
 
 <script>
-  import config from '@/config'
+  import config from '../config'
   export default {
     name: 'ProgressBar',
     data() {
@@ -55,7 +55,7 @@
               if (this.currProgress >= 98) clearInterval(this.$timerId)
               this.currProgress += (100 - this.currProgress) / this._randomFrom(10, 50)
             }, 600)
-          }, 4)
+          }, 14)
         })
       },
       finish(callback) {
