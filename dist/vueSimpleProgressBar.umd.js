@@ -1136,7 +1136,7 @@ var es6_object_assign = __webpack_require__("f751");
   name: '$progress',
   height: '3px',
   color: '#66D9EF',
-  shadowColor: '#66D9EF'
+  shadow: '0px 0px 10px #66D9EF'
 });
 // CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/builtin/es6/typeof.js
 function _typeof2(obj) { if (typeof Symbol === "function" && typeof Symbol.iterator === "symbol") { _typeof2 = function _typeof2(obj) { return typeof obj; }; } else { _typeof2 = function _typeof2(obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol && obj !== Symbol.prototype ? "symbol" : typeof obj; }; } return _typeof2(obj); }
