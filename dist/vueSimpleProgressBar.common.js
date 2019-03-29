@@ -875,24 +875,6 @@ for (var collections = getKeys(DOMIterables), i = 0; i < collections.length; i++
 
 /***/ }),
 
-/***/ "ae3b":
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_1f68de8c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("b0ba");
-/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_1f68de8c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_1f68de8c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
-/* unused harmony reexport * */
- /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_1f68de8c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
-
-/***/ }),
-
-/***/ "b0ba":
-/***/ (function(module, exports, __webpack_require__) {
-
-// extracted by mini-css-extract-plugin
-
-/***/ }),
-
 /***/ "be13":
 /***/ (function(module, exports) {
 
@@ -1035,6 +1017,17 @@ module.exports = function (object, names) {
 
 /***/ }),
 
+/***/ "d3e8":
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_6826dcb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__("dfa1");
+/* harmony import */ var _node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_6826dcb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_6826dcb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* unused harmony reexport * */
+ /* unused harmony default export */ var _unused_webpack_default_export = (_node_modules_mini_css_extract_plugin_dist_loader_js_ref_6_oneOf_1_0_node_modules_css_loader_index_js_ref_6_oneOf_1_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_lib_index_js_ref_6_oneOf_1_2_node_modules_cache_loader_dist_cjs_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_progressBar_vue_vue_type_style_index_0_id_6826dcb0_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
 /***/ "d3f4":
 /***/ (function(module, exports) {
 
@@ -1063,6 +1056,13 @@ module.exports = function (it) {
   return it;
 };
 
+
+/***/ }),
+
+/***/ "dfa1":
+/***/ (function(module, exports, __webpack_require__) {
+
+// extracted by mini-css-extract-plugin
 
 /***/ }),
 
@@ -1188,12 +1188,12 @@ function mergeDeep(target) {
 function isObject(item) {
   return item && _typeof(item) === 'object' && !Array.isArray(item);
 }
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/progressBar.vue?vue&type=template&id=1f68de8c&scoped=true&
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"545da000-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/progressBar.vue?vue&type=template&id=6826dcb0&scoped=true&
 var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{ref:"progressBar",staticClass:"vue-simple-progress-bar",style:(_vm.progressBarStyle)})}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/components/progressBar.vue?vue&type=template&id=1f68de8c&scoped=true&
+// CONCATENATED MODULE: ./src/components/progressBar.vue?vue&type=template&id=6826dcb0&scoped=true&
 
 // EXTERNAL MODULE: ./node_modules/core-js/modules/web.dom.iterable.js
 var web_dom_iterable = __webpack_require__("ac6a");
@@ -1233,16 +1233,19 @@ function _objectSpread(target) {
 
 /* harmony default export */ var progressBarvue_type_script_lang_js_ = ({
   name: 'ProgressBar',
+  startedTime: undefined,
   data: function data() {
     return {
       currProgress: 0,
       transitionAttr: {
         transitionDuration: ''
       },
+      // 方法调用时传入的选项
       tempOptions: {}
     };
   },
   computed: {
+    // 优先读取方法调用时传入的style选项，不存在时再读取config中的
     progressBarStyle: function progressBarStyle() {
       return _objectSpread({}, this.transitionAttr, {
         opacity: this.currProgress >= 100 || this.currProgress == 0 ? 0 : 1,
@@ -1264,47 +1267,86 @@ function _objectSpread(target) {
       Object.assign(this.tempOptions, options);
       this[action](options.callback);
     },
+
+    /**
+     * 开启假进度条
+     */
     start: function start() {
+      var _this = this;
+
+      this.startedTime = performance.now();
       clearInterval(this.$timerId);
-      this.transitionAttr.transitionDuration = '0ms, 1000ms, 200ms, 200ms';
-      this.currProgress = 0;
+      this.transitionAttr.transitionDuration = '0ms,0ms,200ms,200ms'; // 考虑到 start 被重复调用，重复调用时让进度清零（width 的过渡时间先设置为0ms）
+
       this.$nextTick(function () {
-        var _this = this;
+        // vue的dom更新循环结束，但是浏览器可能未重绘
+        window.requestAnimationFrame(function () {
+          // 浏览器重绘，此时dom已被确认真的被修改了
+          _this.currProgress = 0; // 进度清0
 
-        setTimeout(function () {
-          _this.transitionAttr.transitionDuration = '500ms, 1000ms, 200ms, 200ms';
+          _this.$nextTick(function () {
+            // vue的dom更新循环结束，可能未重绘
+            window.requestAnimationFrame(function () {
+              // 重绘，dom已经确认真的被修改
+              // 此时设置过渡，以及初始的假进度
+              _this.transitionAttr.transitionDuration = '250ms,0ms,200ms,200ms';
 
-          var initProgress = _this._randomFrom(20, 80);
+              var initProgress = _this._randomFrom(20, 80);
 
-          _this.currProgress = initProgress;
-          _this.$timerId = setInterval(function () {
-            if (_this.currProgress >= 98) clearInterval(_this.$timerId);
-            _this.currProgress += (100 - _this.currProgress) / _this._randomFrom(10, 50);
-          }, 600);
-        }, 14);
-      });
-    },
-    finish: function finish(callback) {
-      var _this2 = this;
+              _this.currProgress = initProgress; // 持续增加进度，无限趋于100%：直到98%，或者定时器被清除
 
-      clearInterval(this.$timerId);
-      this.transitionAttr.transitionDuration = '300ms, 1500ms, 200ms, 200ms';
-      this.currProgress = 100;
-      this.$nextTick(function () {
-        var transitionEndHandler = function transitionEndHandler(event) {
-          if (event.propertyName === 'opacity') {
-            _this2.transitionDuration = '0ms, 1500ms, 200ms, 200ms';
-            callback && callback();
-          }
-        };
+              _this.$timerId = setInterval(function () {
+                if (_this.currProgress >= 98) {
+                  clearInterval(_this.$timerId);
+                  _this.$timerId = undefined;
+                }
 
-        ['transitionend', 'webkitTransitionEnd', 'oTransitionEnd'].forEach(function (eventName) {
-          _this2.$refs.progressBar.addEventListener(eventName, transitionEndHandler, {
-            passive: true
+                _this.currProgress += (100 - _this.currProgress) / _this._randomFrom(10, 50);
+              }, 400);
+            });
           });
         });
       });
     },
+
+    /**
+     * 结束假进度条
+     */
+    finish: function finish(callback) {
+      var _this2 = this;
+
+      // 考虑到 start 与 finish 方法 "同时" 被调用，这里需要不断轮询start中的计时器的timerId是否被设置
+      // 只有被设置了之后，清除start中的计时器，让进度到100%，才能保证不出现问题
+      var waitTimer = setInterval(function () {
+        if (_this2.$timerId) {
+          clearInterval(_this2.$timerId);
+          clearInterval(waitTimer);
+          _this2.transitionAttr.transitionDuration = '500ms,2000ms,200ms,200ms';
+          _this2.currProgress = 100; // transitionEnd时，监听到过渡时间最长的那个属性（opacity）过渡完成，执行调用时传入的callback
+
+          _this2.transitionEndHandler(_this2.$refs.progressBar, function (event) {
+            if (event.propertyName === 'opacity') {
+              callback && callback();
+            }
+          });
+        }
+      }, 4);
+    },
+
+    /**
+     * 为指定元素设置TransitionEnd事件监听器
+     */
+    transitionEndHandler: function transitionEndHandler(el, callback) {
+      ['transitionend', 'webkitTransitionEnd', 'oTransitionEnd'].forEach(function (eventName) {
+        el.addEventListener(eventName, callback, {
+          passive: true
+        });
+      });
+    },
+
+    /**
+     * 随机
+     */
     _randomFrom: function _randomFrom(l, u) {
       return Math.floor(Math.random() * (u - l + 1) + l);
     }
@@ -1312,8 +1354,8 @@ function _objectSpread(target) {
 });
 // CONCATENATED MODULE: ./src/components/progressBar.vue?vue&type=script&lang=js&
  /* harmony default export */ var components_progressBarvue_type_script_lang_js_ = (progressBarvue_type_script_lang_js_); 
-// EXTERNAL MODULE: ./src/components/progressBar.vue?vue&type=style&index=0&id=1f68de8c&scoped=true&lang=css&
-var progressBarvue_type_style_index_0_id_1f68de8c_scoped_true_lang_css_ = __webpack_require__("ae3b");
+// EXTERNAL MODULE: ./src/components/progressBar.vue?vue&type=style&index=0&id=6826dcb0&scoped=true&lang=css&
+var progressBarvue_type_style_index_0_id_6826dcb0_scoped_true_lang_css_ = __webpack_require__("d3e8");
 
 // CONCATENATED MODULE: ./node_modules/vue-loader/lib/runtime/componentNormalizer.js
 /* globals __VUE_SSR_CONTEXT__ */
@@ -1425,7 +1467,7 @@ var component = normalizeComponent(
   staticRenderFns,
   false,
   null,
-  "1f68de8c",
+  "6826dcb0",
   null
   
 )

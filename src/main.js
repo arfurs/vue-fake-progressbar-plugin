@@ -1,3 +1,4 @@
+/* eslint-disable */
 import Vue from 'vue'
 import vpr from './index'
 
@@ -5,14 +6,26 @@ Vue.use(vpr)
 
 new Vue({
   mounted() {
-    test3.call(this)
+    test0.call(this)
+    // test1.call(this)
+    // test2.call(this)
+    // test3.call(this)
+    // endedImmediately.call(this)
   },
   render(c) {
     return c('div')
   }
 }).$mount('#app')
 
-// eslint-disable-next-line
+// 正常延迟使用
+function test0() {
+  this.$progress.start()
+  setTimeout(() => {
+    this.$progress.finish()
+  }, 3000)
+}
+
+// 重复延迟调用 start
 function test1() {
   this.$progress.start({
     color: 'red',
@@ -27,7 +40,7 @@ function test1() {
   }, 5000)
 }
 
-// eslint-disable-next-line
+// 调用完finish立即调用start
 function test2() {
   this.$progress.start()
   setTimeout(() => {
@@ -36,10 +49,14 @@ function test2() {
   }, 2500)
 }
 
-// eslint-disable-next-line
+// start重复调用
 function test3() {
   this.$progress.start()
-  setTimeout(() => {
-    this.$progress.start()
-  }, 10)
+  this.$progress.start()
+}
+
+// start完立即finish
+function endedImmediately() {
+  this.$progress.start()
+  this.$progress.finish()
 }
