@@ -5,7 +5,7 @@ Vue.use(vpr)
 
 new Vue({
   mounted() {
-    test2.call(this)
+    test3.call(this)
   },
   render(c) {
     return c('div')
@@ -34,4 +34,12 @@ function test2() {
     this.$progress.finish()
     this.$progress.start()
   }, 2500)
+}
+
+// eslint-disable-next-line
+function test3() {
+  this.$progress.start()
+  setTimeout(() => {
+    this.$progress.start()
+  }, 10)
 }
