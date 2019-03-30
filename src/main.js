@@ -6,10 +6,10 @@ Vue.use(vpr)
 
 new Vue({
   mounted() {
-    test0.call(this)
+    // test0.call(this)
     // test1.call(this)
     // test2.call(this)
-    // test3.call(this)
+    test3.call(this)
     // endedImmediately.call(this)
   },
   render(c) {
@@ -57,6 +57,8 @@ function test3() {
 
 // start完立即finish
 function endedImmediately() {
-  this.$progress.start()
-  this.$progress.finish()
+  setTimeout(() => {
+    this.$progress.start()
+    this.$progress.finish()
+  }, 1000)
 }

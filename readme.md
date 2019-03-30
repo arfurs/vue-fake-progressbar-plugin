@@ -3,12 +3,12 @@
 
 ### Usage
 
-`npm i vue-simple-progressbar -S`
+`npm i vue-fake-progressbar -S`
 
 ```javascript
-import vsp from 'vue-simple-progressbar'
+import fakeProgressBar from 'vue-fake-progressbar'
 
-Vue.use(vsp)
+Vue.use(fakeProgressBar)
 
 Vue.$progress.start()
 
@@ -16,7 +16,8 @@ Vue.$progress.finish()
 
 this.$progress.start({
   color: 'red',
-  shadow: '0px 0px 5px yellow'
+  shadow: '0px 0px 5px yellow',
+  height: '4px'
 })
 
 setTimeout(() => {
@@ -34,7 +35,7 @@ setTimeout(() => {
 
 #### Config
 ```javascript
-Vue.use(vsp, {
+Vue.use(fakeProgressBar, {
   name: '$xxxProgressBar'
 })
 

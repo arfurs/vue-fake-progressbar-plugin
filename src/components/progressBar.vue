@@ -46,7 +46,7 @@
        * 开启假进度条
        */
       start() {
-        this.startedTime = performance.now()
+        clearInterval(this.$waitTimer)
         clearInterval(this.$timerId)
         this.transitionAttr.transitionDuration = '0ms,0ms,200ms,200ms' // 考虑到 start 被重复调用，重复调用时让进度清零（width 的过渡时间先设置为0ms）
         this.$nextTick(() => { // vue的dom更新循环结束，但是浏览器可能未重绘
@@ -77,10 +77,12 @@
       finish(callback) {
         // 考虑到 start 与 finish 方法 "同时" 被调用，这里需要不断轮询start中的计时器的timerId是否被设置
         // 只有被设置了之后，清除start中的计时器，让进度到100%，才能保证不出现问题
-        let waitTimer = setInterval(() => {
+        // 考虑到 start 与 finish 方法 "同时" 被调用，这里需要不断轮询start中的计时器的timerId是否被设置
+        // 只有被设置了之后，清除start中的计时器，让进度到100%，才能保证不出现问题
+        this.$waitTimer = setInterval(() => {
           if (this.$timerId) {
             clearInterval(this.$timerId)
-            clearInterval(waitTimer)
+            clearInterval(this.$waitTimer)
             this.transitionAttr.transitionDuration = '500ms,2000ms,200ms,200ms'
             this.currProgress = 100
             // transitionEnd时，监听到过渡时间最长的那个属性（opacity）过渡完成，执行调用时传入的callback
