@@ -76,8 +76,6 @@
       finish(callback) {
         // 考虑到 start 与 finish 方法 "同时" 被调用，这里需要不断轮询start中的计时器的timerId是否被设置
         // 只有被设置了之后，清除start中的计时器，让进度到100%，才能保证不出现问题
-        // 考虑到 start 与 finish 方法 "同时" 被调用，这里需要不断轮询start中的计时器的timerId是否被设置
-        // 只有被设置了之后，清除start中的计时器，让进度到100%，才能保证不出现问题
         this.$waitTimer = setInterval(() => {
           if (this.$timerId) {
             clearInterval(this.$timerId)
